@@ -1,0 +1,103 @@
+/* ===== Base ===== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    color: #111;
+}
+
+/* ===== Header bar ===== */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 10px;
+    max-width: 850px;
+    margin: 18px auto 0;
+}
+
+header p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* ===== Main “card” area ===== */
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 18px 0 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0 14px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* ===== Image ===== */
+picture img {
+    display: block;
+    width: 72%;
+    max-width: 520px;
+    margin: 0 auto 16px;
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.35);
+}
+
+/* ===== Sections (“About” and “Visiting”) ===== */
+section {
+    width: 72%;
+    max-width: 520px;
+    margin: 14px auto;
+    background: #d9d9d9;
+    padding: 14px 16px;
+    text-align: left;
+}
+
+section h2 {
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+    border-bottom: 1px solid #111;
+    padding-bottom: 6px;
+}
+
+section p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    padding: 0px 70px 0px 10px;
+}
+
+section ul {
+    margin: 6px 0 0;
+    padding: 0px 80px 0px 30px;
+}
+
+section li {
+    margin: 4px 0;
+    font-size: 0.95rem;
+}
+
+/* Links */
+a {
+    color: #2b5fb8;
+}
+
+/* ===== Footer bar ===== */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 12px 10px;
+    margin-top: 18px;
+    max-width: 850px;
+    margin: 18px auto 0;
+}
+
+footer p {
+    margin: 0;
+}
