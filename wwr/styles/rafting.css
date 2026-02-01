@@ -130,6 +130,7 @@ section {
     height: 100px;
     display: block;
     border-radius: 6px;
+    object-fit: cover;
 }
 
 figure {
@@ -160,4 +161,20 @@ footer {
     width: 28px;
     height: 28px;
     margin-left: 10px;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: 1fr 200px 1 fr;
+    gap: 1rem;
+    align-items: center;
+}
+
+.history-grid img {
+    width: 100%;
 }
