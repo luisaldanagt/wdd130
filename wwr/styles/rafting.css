@@ -331,3 +331,189 @@ legend {
         grid-template-columns: 1fr;
     }
 }
+
+/* Buttons / CTAs */
+.cta,
+.cta-inline {
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.cta:hover,
+.cta-inline:hover {
+    filter: brightness(0.95);
+}
+
+/* Home hero */
+.home-hero {
+    position: relative;
+    margin-top: 16px;
+}
+
+.home-hero img {
+    width: 100%;
+    display: block;
+    height: 380px;
+    object-fit: cover;
+}
+
+.home-hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    color: #fff;
+    background-color: rgba(11, 61, 74, 0.75);
+}
+
+.home-hero .cta {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Newsletter */
+.newsletter {
+    margin: 24px 0;
+    padding: 16px;
+    background-color: var(--secondary-color);
+}
+
+.newsletter h2 {
+    margin-bottom: 6px;
+}
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 12px;
+    align-items: end;
+    margin-top: 12px;
+}
+
+/* Home grid content */
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card.wide {
+    grid-column: 1 / -1;
+}
+
+/* Trips */
+.trips-hero {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: var(--secondary-color);
+    text-align: center;
+}
+
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 16px 0 24px;
+}
+
+.trip {
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #fff;
+}
+
+.trip img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.trip ul {
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+/* Trips table */
+.trips-table h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+th,
+td {
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    text-align: left;
+}
+
+thead th {
+    background-color: var(--secondary-color);
+}
+
+.table-cta {
+    margin-top: 12px;
+    text-align: right;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+
+    header,
+    main,
+    footer {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .newsletter-form {
+        grid-template-columns: 1fr;
+    }
+
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .trip-cards {
+        grid-template-columns: 1fr;
+    }
+}
