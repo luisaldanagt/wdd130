@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="Contact Rapids Rafting - questions, reservations, and suggestions." />
+    <meta name="author" content="Luis Fernando Aldana" />
+    <title>Rapids Rafting | Contact Us</title>
+
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rapids Rafting logo" class="logo" />
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">White Water Rafting Company</h1>
+
+        <!-- Company info -->
+        <section class="contact-info">
+            <p>123 Main River Street</p>
+            <p>Kolob, California</p>
+            <p>+1 (999) 999-9999</p>
+            <p><a href="mailto:info@whitewater.com">info@whitewater.com</a></p>
+        </section>
+
+        <!-- Map + Form -->
+        <section class="contact-grid">
+            <div class="map">
+                <!-- Replace the src with YOUR embedded Google Map link -->
+                <iframe title="Company Location Map"
+                  src="https://www.google.com/maps?q=Kolob,California&output=embed" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-item">
+                    <label for="fullname">Name</label>
+                    <input type="text" id="fullname" name="fullname" required />
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <fieldset class="form-item">
+                    <legend>Message Purpose</legend>
+
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="general" required />
+                        General Inquiry
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="reservation" />
+                        Reservation Question
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="purpose" value="website" />
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter" value="yes" />
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="btn">Get in Touch!</button>
+            </form>
+        </section>
+
+        <!-- Employees -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Guide Team Lead profile photo" />
+                    <figcaption>Alex Rivera — Guide Team Lead</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee2.jpg" alt="Reservations Specialist profile photo" />
+                    <figcaption>Maya Chen — Reservations Specialist</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee3.jpg" alt="Safety Coordinator profile photo" />
+                    <figcaption>Jordan Smith — Safety Coordinator</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Rapids Rafting | Luis Fernando Aldana</p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com" aria-label="Facebook">
+                <img src="images/facebook.webp" alt="Facebook icon" />
+            </a>
+            <a href="https://linkedin.com" aria-label="LinkedIn">
+                <img src="images/linkedin.png" alt="LinkedIn icon" />
+            </a>
+            <a href="https://instagram.com" aria-label="Instagram">
+                <img src="images/instagram.jpg" alt="Instagram icon" />
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
